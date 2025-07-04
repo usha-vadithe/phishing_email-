@@ -1,0 +1,41 @@
+# Phishing Email Analysis – Cyber Security Internship Task 2
+
+## Sample Email:
+From: alert@paypai-security.com  
+Subject: Urgent Action Required – Account Locked
+
+Dear Valued Customer,
+
+We have detected suspicious activity on your PayPal account. As a security measure, we have temporarily limited your access.
+
+To restore access, please verify your account details by clicking the link below:
+
+ https://secure-paypai-login.com/verify
+
+Please complete this process within the next 12 hours to avoid permanent account suspension.
+
+Sincerely,  
+PayPal Security Center
+
+## Phishing Indicators:
+
+1. **Spoofed Sender Address**:
+   - Email is from "paypai-security.com" instead of "paypal.com"
+   - The domain is misspelled (Paypai instead of PayPal)
+
+2. **Suspicious Link**:
+   - Link is "https://secure-paypai-login.com" (not PayPal)
+   - Looks official, but fake domain
+
+3. **Urgent Language**:
+   - Uses scare tactics: “permanent account suspension”
+   - Pushes the user to act quickly
+
+4. **Generic Greeting**:
+   - Says “Dear Valued Customer” instead of using the recipient’s name
+
+5. **Branding Issues**:
+   - No PayPal logo, signature, or contact info
+
+## Conclusion:
+This is a classic phishing email. It uses domain spoofing, urgency, and fear to trick users into clicking a malicious link and providing sensitive login credentials. Users should delete such emails immediately and report them to their service provider.
